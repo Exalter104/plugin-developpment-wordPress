@@ -8,6 +8,6 @@ echo("<h2 style= 'color: red'> The Most Supreme Zaat in Universe is  <h1>$my_Rab
 ?>
 
 <?php
-// Dynamic Color and Html
+// Dynamic Color and Htm
 
 ?>
