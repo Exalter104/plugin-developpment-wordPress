@@ -13,4 +13,4 @@ $h1_color="red";
 // Dynamic Color and Html
  
 ?>
-<h1 style= "color: <?php echo $h1_color; ?>"><?php echo ' I am dynamic text colors'; ?> </h1>;
+<h1 style= "color: <?php echo $h1_color; ?>"><?php echo ' I am dynamic text colors' ?> </h1>
