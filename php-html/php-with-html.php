@@ -1,16 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Php With HTML</title>
+</head>
+<body>
+    <?php
+  $name = "Muhammad Sheraz";
+  $age = 27;
+  $cGpa = 2.61;
+  $role = "Adminstrator";
+  $fvrtFood = "kabab";
+  $colors = "blue";
 
-<?php
+  
+  ?>
+    <button style="color: <?php echo $colors; ?>"><?php echo "my name is $name" ?></button>
+    <button style="color: <?php echo $colors; ?>"><?php echo "and my age is $age" ?></button><br><br>
+    <button style="color: <?php echo $colors; ?>"><?php echo "my cgpa is $cGpa" ?></button>
+    <button style="color: <?php echo $colors; ?>"><?php echo "my Exarth role is $role" ?></button><br><br>
+    <button style="color: <?php echo $colors; ?>"><?php echo "my faverit color is $colors" ?></button><br><br>
+    <button style="color: <?php echo $colors; ?>">Please manage your administration</button>
 
-// PHP With HTML
-
-echo '<h1 style="color:green"> I am the Ummathi of Hazrat Muhammad (SAW).</h1>';
-$my_Rabb="ALLAH";
-echo("<h2 style= 'color: red'> The Most Supreme Zaat in Universe is  <h1>$my_Rabb</h1></h2>")
-?>
-
-<?php
-$h1_color="red";
-// Dynamic Color and Html
- 
-?>
-<h1 style= "color: <?php echo $h1_color; ?>"><?php echo ' I am dynamic text colors' ?> </h1>
+</body>
+</html>
