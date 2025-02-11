@@ -15,7 +15,7 @@
         <input type="text" name="num2"><br><br>
         <label> Enter y:</label>
         <input type="text" name="num3"><br><br>
-        <input type="submit" value="total">
+        <input type="submit" value="total"> <input type="submit" value="total">
 
     </form>
 </body>
