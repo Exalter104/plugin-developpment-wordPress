@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple Number Counter</title>
+    <title>Reverse Number Counter</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -34,7 +34,7 @@
 
 <body>
     <div class="container">
-        <h1>Simple Number Counter</h1>
+        <h1>Reverse Number Counter</h1>
         <form action="" method="post">
             <input type="number" name="userInput" placeholder="Enter a number" required>
             <button type="submit">Count</button>
@@ -47,7 +47,7 @@
             if ($userInput >= 0) {
                 echo "<div class='result'>";
                 echo "<h2>Counting from 0 to $userInput:</h2>";
-                for ($i = 0; $i <= $userInput; $i++) {
+                for ($i = $userInput; $i >= 0; $i--) {
                     echo $i . " ";
                 }
                 echo "</div>";
