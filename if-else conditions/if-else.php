@@ -89,9 +89,9 @@
             echo "</div>";
         }
         ?>
-    </div>
+    </div><br>
 
-    <div class="container">
+    <!-- <div class="container">
         <h2>Voting Eligibility Checker</h2>
         <form action="" method="post">
             <label>Enter your name:</label><br>
@@ -103,7 +103,7 @@
             <input type="submit" name="vote_submit" value="Check Eligibility">
         </form>
 
-        <?php
+     <?php
         if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST["vote_submit"])) {
             $age_eligibility = 18;
 
@@ -118,7 +118,7 @@
             }
             echo "</div>";
         }
-        ?>
+        ?> 
     </div>
 </body>
 
