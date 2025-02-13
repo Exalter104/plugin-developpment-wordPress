@@ -30,7 +30,7 @@ $exalters = array("Ikram" => "CEO", "Saqib" => "Acting CTO", "Sheraz" => "Admins
 // array_shift($exalters);
 // $keys = array_keys($exalters);
 // $values = array_values($exalters);
-// $exalter = array_flip($exalters);
+$exalter = array_flip($exalters);
 
 
 foreach ($exalters as $key => $value) {
